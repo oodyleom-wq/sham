@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHAM SPOR | شام سبور</title>
+    <!-- خط تجوال العربي الأنيق -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    <!-- مكتبة الأيقونات FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Tajawal', sans-serif;
+        }
+
+        body {
+            background-color: #f3f3f1;
+            color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 30px 16px 50px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 580px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* حاوية الشعار الدائرية */
+        .logo-wrapper {
+            width: 114px;
+            height: 114px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+            border: 1px solid rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+            padding: 10px;
+        }
+
+        .logo-wrapper svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* النصوص التعريفية */
+        .bio-section {
+            font-size: 15.5px;
+            line-height: 1.75;
+            font-weight: 600;
+            color: #1f1f1f;
+            margin-bottom: 22px;
+        }
+
+        .bio-section p {
+            margin-bottom: 6px;
+        }
+
+        .brand-tag {
+            margin-top: 8px;
+            font-weight: 800;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+        }
+
+        /* أيقونات السوشيال ميديا العلوية */
+        .social-icons-row {
+            display: flex;
+            justify-content: center;
+            gap: 22px;
+            margin-bottom: 28px;
+        }
+
+        .social-icons-row a {
+            color: #1a1a1a;
+            font-size: 26px;
+            transition: transform 0.2s ease, opacity 0.2s ease;
+            text-decoration: none;
+        }
+
+        .social-icons-row a:hover {
+            transform: scale(1.12);
+            opacity: 0.75;
+        }
+
+        /* قائمة الأزرار */
+        .links-list {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .link-card {
+            background-color: #ffffff;
+            color: #1a1a1a;
+            text-decoration: none;
+            padding: 12px 18px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+            border: 1px solid rgba(0, 0, 0, 0.04);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .link-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+        }
+
+        /* مربع الأيقونة داخل الزر */
+        .card-icon {
+            width: 44px;
+            height: 44px;
+            background-color: #000000;
+            color: #ffffff;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 22px;
+            flex-shrink: 0;
+            overflow: hidden;
+        }
+
+        .card-icon.logo-bg {
+            background-color: #ffffff;
+            border: 1px solid #e5e5e5;
+            padding: 3px;
+        }
+
+        .card-text {
+            font-size: 16.5px;
+            font-weight: 700;
+            flex-grow: 1;
+            text-align: center;
+            padding: 0 10px;
+        }
+
+        .card-dots {
+            color: #999999;
+            font-size: 14px;
+            width: 24px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- الشعار المدمج داخل الكود (يظهر للجميع 100%) -->
+        <div class="logo-wrapper">
+            <svg viewBox="0 0 240 200" xmlns="http://www.w3.org/2000/svg">
+                <!-- كلمة شام بالخط العربي العريض -->
+                <text x="120" y="112" text-anchor="middle" fill="#000000" font-family="'Tajawal', sans-serif" font-weight="900" font-size="88">شام</text>
+                <!-- الخطان المنحنيان أسفل الكلمة -->
+                <path d="M 38 144 Q 115 118 198 114 Q 125 126 38 144 Z" fill="#000000"/>
+                <path d="M 55 150 Q 125 128 194 123 Q 130 135 55 150 Z" fill="#000000"/>
+                <!-- النص الإنجليزي SHAM SPOR -->
+                <text x="120" y="176" text-anchor="middle" fill="#000000" font-family="sans-serif" font-weight="800" font-size="18.5" letter-spacing="2.5">SHAM SPOR</text>
+            </svg>
+        </div>
+
+        <!-- النص العلوي -->
+        <div class="bio-section">
+            <p>للفخامة عنوان… وعنوانها.. شام سبور ✨</p>
+            <p>موديلات متنوعة ومحروفة تنفرد فيها عن الآخرين ✨</p>
+            <p>طباعة مخصصة حسب طلبكم لنحوّل أفكاركم إلى تصاميم فريدة 🎨</p>
+            <p style="margin-top: 12px;">📍 متواجدون في تركيا – بورصة 🇹🇷</p>
+            <p>شحن لجميع الولايات التركية 🚚</p>
+            <p>💵 متوفر الدفع عند الاستلام (Kapıda Ödeme)</p>
+            <div class="brand-tag">🤍 SHAM SPOR</div>
+        </div>
+
+        <!-- أيقونات الوصول السريع -->
+        <div class="social-icons-row">
+            <a href="https://www.shopier.com/shamspor" target="_blank" aria-label="متجرنا الإلكتروني">
+                <i class="fa-solid fa-globe"></i>
+            </a>
+            <a href="https://wa.me/message/6E4BBB2F4OAOM1" target="_blank" aria-label="واتساب">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://www.tiktok.com/@saham_spor?_r=1&_t=ZS-9BhZc6MGjDw" target="_blank" aria-label="تيك توك">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a href="https://www.instagram.com/sham_spor2/" target="_blank" aria-label="انستغرام">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+
+        <!-- البطاقات الرئيسية -->
+        <div class="links-list">
+            
+            <!-- متجرنا الإلكتروني -->
+            <a href="https://www.shopier.com/shamspor" target="_blank" class="link-card">
+                <div class="card-icon logo-bg">
+                    <svg viewBox="0 0 240 200" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                        <text x="120" y="112" text-anchor="middle" fill="#000000" font-family="'Tajawal', sans-serif" font-weight="900" font-size="88">شام</text>
+                        <path d="M 38 144 Q 115 118 198 114 Q 125 126 38 144 Z" fill="#000000"/>
+                        <path d="M 55 150 Q 125 128 194 123 Q 130 135 55 150 Z" fill="#000000"/>
+                        <text x="120" y="176" text-anchor="middle" fill="#000000" font-family="sans-serif" font-weight="800" font-size="18.5" letter-spacing="2.5">SHAM SPOR</text>
+                    </svg>
+                </div>
+                <span class="card-text">متجرنا الإلكتروني</span>
+                <span class="card-dots"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+            </a>
+
+            <!-- واتساب -->
+            <a href="https://wa.me/message/6E4BBB2F4OAOM1" target="_blank" class="link-card">
+                <div class="card-icon">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <span class="card-text">واتساب</span>
+                <span class="card-dots"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+            </a>
+
+            <!-- انستغرام -->
+            <a href="https://www.instagram.com/sham_spor2/" target="_blank" class="link-card">
+                <div class="card-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <span class="card-text">انستغرام</span>
+                <span class="card-dots"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+            </a>
+
+            <!-- تيك توك -->
+            <a href="https://www.tiktok.com/@saham_spor?_r=1&_t=ZS-9BhZc6MGjDw" target="_blank" class="link-card">
+                <div class="card-icon">
+                    <i class="fa-brands fa-tiktok"></i>
+                </div>
+                <span class="card-text">تيك توك</span>
+                <span class="card-dots"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+            </a>
+
+        </div>
+    </div>
+
+</body>
+</html>
